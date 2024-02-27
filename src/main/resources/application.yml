@@ -1,0 +1,16 @@
+message:
+  order:
+    create: 'sucesso'
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+  data:
+    mongodb:
+      username: root
+      password: MongoDB2019!
+      port: 27017
+      host: localhost
+      database: core_bank
+      authentication-database: admin
